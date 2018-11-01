@@ -24,7 +24,7 @@ If you already have a GitHub profile (obviously)
 
 Voila! Your site should be live at `https://{username}.github.io`
 
-Here is my landing page - [Timothy Fisher](https://www.timothyfisher.com)
+Here is my landing page - [Timothy Fisher](http://www.timothyfisher.com)
 
 ### Custom Domain
 
