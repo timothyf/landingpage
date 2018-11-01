@@ -24,12 +24,10 @@ If you already have a GitHub profile (obviously)
 
 Voila! Your site should be live at `https://{username}.github.io`
 
-Here's mine, but I revamped my **Dev Landing Page** with React and some magic - [Dinesh Pandiyan](https://flexdinesh.github.io)
+Here's mine, but I revamped my **Dev Landing Page** with React and some magic - [Timothy Fisher](https://www.timothyfisher.com)
 
 ### Custom Domain
 
 If you want to make your new landing page available under a domain like `{username}.com` you can get started here - [Setting up a custom domain](https://help.github.com/articles/quick-start-setting-up-a-custom-domain/).
 
-## License
 
-MIT © Dinesh Pandiyan
