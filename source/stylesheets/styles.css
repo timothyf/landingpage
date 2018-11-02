@@ -28,8 +28,9 @@ html {
 	}
 }
 
-.icons-social i {
+.social-icons i {
 	font-size: 3em;
+	padding: 10px;
 }
 
 /* Custom Styles */
@@ -77,10 +78,6 @@ main .tagline {
 	padding-right: 15%;
 	transform: rotate(-45deg);
 	font-size: 1.5em;
-}
-
-.icons-social i {
-	padding: 10px;
 }
 
 .devto {
