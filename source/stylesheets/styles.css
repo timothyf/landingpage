@@ -73,12 +73,12 @@ main .tagline {
 }
 
 #aboutInfo {
-	color: #ccc;
+	background-color: #eee;
+	color: #303F9F;
 	border: 1px solid #ccc;
 	border-radius: 10px;
-	width: 70%;
+	width: 75%;
 	margin: auto;
-	margin-top: 40px;
 	padding: 25px;
 	text-align: left;
 }
