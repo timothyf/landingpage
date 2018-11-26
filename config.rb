@@ -17,6 +17,22 @@ activate :deploy do |deploy|
   deploy.deploy_method = :git
 end
 
+# activate :external_pipeline,
+#   name: :webpack,
+#   command: build? ?
+#   "NODE_ENV=production ./node_modules/webpack/bin/webpack.js --bail -p" :
+#   "./node_modules/webpack/bin/webpack.js --watch -d --progress --color",
+#   source: "tmp/dist",
+#   latency: 1
+
+activate :external_pipeline,
+         name: :webpack,
+         command: build? ?
+         "BUILD_PRODUCTION=1 ./node_modules/webpack/bin/webpack.js --bail -p" :
+         "BUILD_DEVELOPMENT=1 ./node_modules/webpack/bin/webpack.js --watch -d --progress --color",
+         source: ".tmp/dist",
+         latency: 1
+
 # With alternative layout
 # page '/path/to/file.html', layout: 'other_layout'
 
