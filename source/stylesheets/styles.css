@@ -1,7 +1,13 @@
 /* Typography */
 
 html {
+	background: #303F9F;
+	color: #FAFAFA;
 	font-family: 'Roboto', sans-serif;
+}
+
+p {
+	margin-bottom: 10px;
 }
 
 @media (min-width: 576px) {
@@ -28,12 +34,22 @@ html {
 	}
 }
 
+.page {
+  min-height: 100vh;
+}
+
+.social-icons a {
+	color: #FAFAFA;
+}
+
+.social-icons a svg path{
+	fill: #FAFAFA;
+}
+
 .social-icons i {
 	font-size: 3em;
 	padding: 10px;
 }
-
-/* Custom Styles */
 
 main {
 	display: flex;
@@ -56,37 +72,17 @@ main .tagline {
 	font-weight: 100;
 }
 
-#outerbox {
-	min-height: 70vh;
-	background-color: #303F9F;
+#aboutInfo {
+	color: #ccc;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	width: 70%;
+	margin: auto;
+	margin-top: 40px;
+	padding: 25px;
+	text-align: left;
 }
 
-.watermarked {
-  position: relative;
-  overflow: hidden;
-}
-
-.watermarked::before {
-  position: absolute;
-  display: block;
-  content: attr(data-watermark);
-  opacity: 0.2;
-  line-height: 2em;
-  letter-spacing: 2px;
-  color: #fff;
-	padding-left: 15%;
-	padding-right: 15%;
-	transform: rotate(-45deg);
-	font-size: 1.5em;
-}
-
-.devto {
-	margin-bottom: -0.20rem;
-}
-
-.devto svg {
-	margin-bottom: -0.20rem;
-	margin-left: 0.675rem;;
-	width: 2.65rem;
-	height: 2.65rem;
+.sectionTitle {
+	font-weight: bold;
 }
