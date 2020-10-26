@@ -1,0 +1,26 @@
+<div class="page" id="projects-page">
+  <main>
+    <div id="projectsInfo">
+      <div class="sectionTitle">Independent Projects</div>
+        <% data.info.projects.each do |project| %>
+          <div class="project">
+            <div class="projectTitle">
+              <%= project.title %>&nbsp;&nbsp;
+              <%= link_to("<i class='fab fa-github animated-hover faa-fast'></i>", project.github_url) %>
+            </div>
+            <div class="section">
+              <p><%= project.desc %></p>
+            </div>
+            <% if project.tech %>
+              <div class="section">
+                <h4>Technologies:</h4>
+                <%= project.tech.join(', ') %>
+              </div>
+            <% end %>
+          </div>
+        <% end %>
+        <br/>
+        <%= link_to 'More projects...', "https://github.com/timothyf?tab=repositories" %>
+    </div>
+  </main>
+</div>

@@ -25,7 +25,7 @@ links:
 about: |
     <p>
     <span class="sectionTitle">Professional Summary</span><br/><br/>
-    I am a passionate developer and leader with 27 years of software development experience in roles
+    I am a passionate developer and leader with 29 years of software development experience in roles
     including Chief Technology Officer, VP of Engineering, Chief Architect, and Director of Mobile Development,
     along with many years of hands-on development experience.
     </p>
@@ -41,3 +41,30 @@ about: |
     the Technology Mentorship Community for Michigan. I also enjoy technical writing. I am the author of two published
     books, the Java Phrasebook and the Ruby on Rails Bible.
     </p>
+projects:
+    - title: Roku Remote
+      tech:
+        - JavaScript
+        - Electron
+      desc:
+        This is a cross-platofrm desktop app built using the Electron JavaScript
+        framework. The app functions as a remote control for Roku devices.
+      github_url: https://github.com/timothyf/roku-electron
+    - title: Resume Builder
+      tech:
+          - Ruby
+          - JavaScript
+          - Middleman
+      desc:
+        Resume builder built in Ruby using Middleman. Generates HTML and PDF resume
+        views from resume data stored as YAML.
+      github_url: https://github.com/timothyf/resume-builder
+    - title: Personal Portfolio
+      tech:
+          - Ruby
+          - Middleman
+          - JavaScript
+      desc:
+        A landing page suitable for a developer or other professional. Uses the
+        ruby-based Middleman project. Deployed at http://www.timothyfisher.com
+      github_url: https://github.com/timothyf/landingpage
