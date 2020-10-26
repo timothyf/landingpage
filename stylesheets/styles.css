@@ -1,0 +1,103 @@
+/* Typography */
+
+html {
+	background: #303F9F;
+	color: #FAFAFA;
+	font-family: 'Roboto', sans-serif;
+}
+
+p {
+	margin-bottom: 10px;
+}
+
+@media (min-width: 576px) {
+	html {
+		font-size: 14px;
+	}
+}
+
+@media (min-width: 768px) {
+	html {
+		font-size: 16px;
+	}
+}
+
+@media (min-width: 992px) {
+	html {
+		font-size: 18px;
+	}
+}
+
+@media (min-width: 1200px) {
+	html {
+		font-size: 20px;
+	}
+}
+
+.page {
+  min-height: 100vh;
+}
+
+.social-icons a {
+	color: #FAFAFA;
+}
+
+.social-icons a svg path{
+	fill: #FAFAFA;
+}
+
+.social-icons i {
+	font-size: 3em;
+	padding: 10px;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	justify-content: center;
+	padding: 0 30px;
+	text-align: center;
+}
+
+main .intro {
+	font-family: 'Reem Kufi', sans-serif;
+	font-size: 3.75em;
+	font-weight: 600;
+}
+
+main .tagline {
+	font-size: 1.5em;
+	margin: 1.5em 0;
+	font-weight: 100;
+}
+
+#aboutInfo,
+#projectsInfo {
+	background-color: #eee;
+	color: #303F9F;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	width: 75%;
+	margin: auto;
+	padding: 25px;
+	text-align: left;
+}
+
+.section {
+	margin: 20px;
+}
+
+.sectionTitle {
+	font-weight: bold;
+	font-size: 1.4em;
+}
+
+.project {
+	margin-top: 50px;
+}
+
+.projectTitle {
+	font-size: 1.2em;
+	font-weight: bold;
+}
