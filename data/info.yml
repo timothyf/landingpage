@@ -68,3 +68,9 @@ projects:
         A landing page suitable for a developer or other professional. Uses the
         ruby-based Middleman project. Deployed at http://www.timothyfisher.com
       github_url: https://github.com/timothyf/landingpage
+    - title: Etsy API Gem
+      tech:
+        - Ruby
+        - Etsy Developer API 
+      desc:
+      github_url: https://github.com/timothyf/etsy_api
