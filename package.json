@@ -30,6 +30,7 @@
     "webpack-cli": "^3.1.2"
   },
   "dependencies": {
+    "caniuse-lite": "^1.0.30001519",
     "react": "^16.6.0",
     "react-dom": "^16.6.0"
   }
